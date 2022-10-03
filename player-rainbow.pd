@@ -119,21 +119,19 @@
 #X text 239 582 Someday we'll find it \, the rainbow connection \,
 ;
 #X text 613 586 the lovers \, the dreamers \, and me.;
-#X obj 633 1323 output~;
+#X obj 649 1346 output~;
 #X floatatom 670 1132 5 0 0 0 - - - 0;
 #X floatatom 728 1131 5 0 0 0 - - - 0;
 #X obj 729 1164 osc~;
 #X obj 505 1246 *~ 0.05 `;
 #X obj 634 1280 complex-mod~;
 #X obj 647 1166 phasor~;
-#X obj 745 1225 expr~ $v1 > 0.5 && $v2 > 0.5 && v;
-#X text 759 1203 how to remove clicking/rumbling from siilences?;
 #X obj 728 1107 * 2;
-#X obj 670 1108 *;
 #X msg 254 77 300;
+#X obj 670 1108 * 1;
 #X connect 0 0 4 1;
 #X connect 1 0 4 0;
-#X connect 2 0 127 0;
+#X connect 2 0 124 0;
 #X connect 2 0 1 0;
 #X connect 3 0 5 0;
 #X connect 4 0 3 0;
@@ -163,8 +161,8 @@
 #X connect 22 0 23 0;
 #X connect 23 0 24 0;
 #X connect 24 0 14 0;
+#X connect 24 0 123 0;
 #X connect 24 0 125 0;
-#X connect 24 0 126 0;
 #X connect 25 0 23 0;
 #X connect 26 0 23 0;
 #X connect 27 0 23 0;
@@ -286,6 +284,6 @@
 #X connect 122 0 120 0;
 #X connect 122 0 121 1;
 #X connect 122 0 121 2;
-#X connect 125 0 118 0;
-#X connect 126 0 117 0;
-#X connect 127 0 0 0;
+#X connect 123 0 118 0;
+#X connect 124 0 0 0;
+#X connect 125 0 117 0;
