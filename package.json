@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "openweather-apis": "^4.4.2",
     "xmlhttprequest": "^1.8.0"
   }
 }
