@@ -1039,7 +1039,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 557.0, 667.0, 50.0, 35.0 ],
-					"text" : "0.363636"
+					"text" : "1.210526"
 				}
 
 			}
@@ -1138,7 +1138,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 824.25, 667.0, 50.0, 35.0 ],
-					"text" : "0.730769"
+					"text" : "0.789474"
 				}
 
 			}
@@ -1225,7 +1225,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 952.5, 667.0, 50.0, 35.0 ],
-					"text" : "-0.730769"
+					"text" : "-0.789474"
 				}
 
 			}
@@ -1268,13 +1268,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-92",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1183.5, 667.0, 46.0, 35.0 ],
-					"text" : "2.730769"
+					"patching_rect" : [ 1183.5, 667.0, 46.0, 22.0 ],
+					"text" : "2.7"
 				}
 
 			}
@@ -2404,7 +2403,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 332.0, 427.0, 97.0, 35.0 ],
-					"text" : "dictionary u326011428"
+					"text" : "dictionary u753001267"
 				}
 
 			}
@@ -2438,7 +2437,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 344.0, 15.78333333333336, 602.0, 366.21666666666664 ],
-					"pic" : "/Users/rileymeere/Downloads/PngItem_103791.png",
+					"pic" : "PngItem_103791.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 10.5, 6.89166666666668, 835.0, 507.958333333333314 ]
 				}
@@ -4283,6 +4282,13 @@
 				"bootpath" : "~/Documents/InteractiveSound/InteractiveSound-RileyMeere/white-lotus-weather",
 				"patcherrelativepath" : ".",
 				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PngItem_103791.png",
+				"bootpath" : "~/Documents/InteractiveSound/InteractiveSound-RileyMeere/white-lotus-weather",
+				"patcherrelativepath" : ".",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
