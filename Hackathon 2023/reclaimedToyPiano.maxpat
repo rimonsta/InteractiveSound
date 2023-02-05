@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 231.0, 88.0, 1094.0, 703.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 703.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 311.665046334266663, 459.330096781253815, 85.0, 20.0 ],
-					"presentation_linecount" : 3,
 					"text" : "B diminished"
 				}
 
@@ -247,33 +246,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-299",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2537.587385535240173, 1804.135910511016846, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-300",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2581.087385535240173, 1769.635910511016846, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-301",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -321,17 +293,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-305",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2571.558259308338165, 1595.825231671333313, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-306",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -362,33 +323,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2470.679608762264252, 1190.495143115520477, 29.5, 22.0 ],
 					"text" : "52"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-309",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2536.616511762142181, 1450.80582195520401, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-310",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2580.116511762142181, 1416.30582195520401, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
 				}
 
 			}
@@ -441,17 +375,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-315",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2570.587385535240173, 1242.495143115520477, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-316",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -494,21 +417,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2465.029126226902008, 1094.330095410346985, 150.0, 33.0 ],
 					"text" : "transmits raw midi data to specified port"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-320",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2515.529126226902008, 1049.330095410346985, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
 				}
 
 			}
@@ -810,33 +718,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-249",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2236.587385535240173, 1809.135910511016846, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-250",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2280.087385535240173, 1774.635910511016846, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-251",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -884,17 +765,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-255",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2270.558259308338165, 1600.825231671333313, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-256",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -925,33 +795,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2169.679608762264252, 1195.495143115520477, 29.5, 22.0 ],
 					"text" : "53"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-259",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2235.616511762142181, 1455.80582195520401, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-260",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2279.116511762142181, 1421.30582195520401, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
 				}
 
 			}
@@ -1004,17 +847,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-265",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2269.587385535240173, 1247.495143115520477, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-266",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -1057,21 +889,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2164.029126226902008, 1099.330095410346985, 150.0, 33.0 ],
 					"text" : "transmits raw midi data to specified port"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-270",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2214.529126226902008, 1054.330095410346985, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
 				}
 
 			}
@@ -1229,33 +1046,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-213",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1904.888346493244171, 1809.135910511016846, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-214",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1948.388346493244171, 1774.635910511016846, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-215",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1303,17 +1093,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-219",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1938.859220266342163, 1600.825231671333313, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-220",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -1344,33 +1123,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1837.98056972026825, 1195.495143115520477, 29.5, 22.0 ],
 					"text" : "55"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-223",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1903.917472720146179, 1455.80582195520401, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-224",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1947.417472720146179, 1421.30582195520401, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
 				}
 
 			}
@@ -1423,17 +1175,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-229",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1937.888346493244171, 1247.495143115520477, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-230",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -1476,21 +1217,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1832.330087184906006, 1099.330095410346985, 150.0, 33.0 ],
 					"text" : "transmits raw midi data to specified port"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-234",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1882.830087184906006, 1054.330095410346985, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
 				}
 
 			}
@@ -1648,33 +1374,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-162",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1620.888346493244171, 1809.135910511016846, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-163",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1664.388346493244171, 1774.635910511016846, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-164",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1722,17 +1421,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-168",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1654.859220266342163, 1600.825231671333313, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-184",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -1763,33 +1451,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1553.98056972026825, 1195.495143115520477, 29.5, 22.0 ],
 					"text" : "57"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-187",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1619.917472720146179, 1455.80582195520401, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-188",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1663.417472720146179, 1421.30582195520401, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
 				}
 
 			}
@@ -1842,17 +1503,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-193",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1653.888346493244171, 1247.495143115520477, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-194",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -1895,21 +1545,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1548.330087184906006, 1099.330095410346985, 150.0, 33.0 ],
 					"text" : "transmits raw midi data to specified port"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-198",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1598.830087184906006, 1054.330095410346985, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
 				}
 
 			}
@@ -2067,33 +1702,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-67",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1345.888346493244171, 1809.135910511016846, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-68",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1389.388346493244171, 1774.635910511016846, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-69",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -2141,17 +1749,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-73",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1379.859220266342163, 1600.825231671333313, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-74",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -2182,33 +1779,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1278.98056972026825, 1195.495143115520477, 29.5, 22.0 ],
 					"text" : "59"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-77",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1344.917472720146179, 1455.80582195520401, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-78",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1388.417472720146179, 1421.30582195520401, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
 				}
 
 			}
@@ -2261,17 +1831,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-83",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1378.888346493244171, 1247.495143115520477, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-84",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -2314,21 +1873,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1273.330087184906006, 1099.330095410346985, 150.0, 33.0 ],
 					"text" : "transmits raw midi data to specified port"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-99",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1323.830087184906006, 1054.330095410346985, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
 				}
 
 			}
@@ -2486,33 +2030,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-10",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1069.888346493244171, 1809.135910511016846, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1113.388346493244171, 1774.635910511016846, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -2560,17 +2077,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1103.859220266342163, 1600.825231671333313, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-36",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -2601,33 +2107,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1002.98056972026825, 1195.495143115520477, 29.5, 22.0 ],
 					"text" : "60"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-41",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1068.917472720146179, 1455.80582195520401, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-42",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1112.417472720146179, 1421.30582195520401, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
 				}
 
 			}
@@ -2680,17 +2159,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-47",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1102.888346493244171, 1247.495143115520477, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-48",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -2733,21 +2201,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 997.330087184906006, 1099.330095410346985, 150.0, 33.0 ],
 					"text" : "transmits raw midi data to specified port"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-52",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1047.830087184906006, 1054.330095410346985, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
 				}
 
 			}
@@ -2905,33 +2358,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-122",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 790.888346493244171, 1809.135910511016846, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-123",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 834.388346493244171, 1774.635910511016846, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-124",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -2979,17 +2405,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-132",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 824.859220266342163, 1600.825231671333313, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-139",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -3020,33 +2435,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 723.98056972026825, 1195.495143115520477, 29.5, 22.0 ],
 					"text" : "62"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-146",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 789.917472720146179, 1455.80582195520401, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-150",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 833.417472720146179, 1421.30582195520401, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
 				}
 
 			}
@@ -3099,17 +2487,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-155",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 823.888346493244171, 1247.495143115520477, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-159",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -3152,21 +2529,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 718.330087184906006, 1099.330095410346985, 150.0, 33.0 ],
 					"text" : "transmits raw midi data to specified port"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-170",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 768.830087184906006, 1054.330095410346985, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
 				}
 
 			}
@@ -3324,33 +2686,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-109",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 483.752431869506836, 1809.135910511016846, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-110",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 527.252431869506836, 1774.635910511016846, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-111",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -3398,17 +2733,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-115",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 517.723305642604828, 1600.825231671333313, 118.5, 20.0 ],
-					"text" : "generate note on/off"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-119",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -3439,33 +2763,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 416.844655096530914, 1195.495143115520477, 29.5, 22.0 ],
 					"text" : "64"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-91",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 482.781558096408844, 1455.80582195520401, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-92",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 526.281558096408844, 1421.30582195520401, 150.0, 33.0 ],
-					"text" : "prepare datat in form of midi message"
 				}
 
 			}
@@ -3514,17 +2811,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 433.252431869506836, 1332.495143115520477, 54.0, 22.0 ],
 					"text" : "pack 0 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-97",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 516.752431869506836, 1247.495143115520477, 118.5, 20.0 ],
-					"text" : "generate note on/off"
 				}
 
 			}
@@ -3656,21 +2942,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 411.194172561168671, 1099.330095410346985, 150.0, 33.0 ],
 					"text" : "transmits raw midi data to specified port"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-85",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 461.694172561168671, 1054.330095410346985, 170.0, 40.0 ],
-					"text" : "Output of midiformat typically goes to midiout."
 				}
 
 			}
@@ -3836,7 +3107,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 533.165046334266663, 427.330096781253815, 111.0, 35.0 ],
-					"text" : "48 48 48 48 48 48 48 48 49 48"
+					"text" : "48 48 48 48 48 48 48 48 48"
 				}
 
 			}
@@ -3860,7 +3131,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 296.165046334266663, 292.330096781253815, 50.0, 22.0 ],
-					"text" : "48"
+					"text" : "10"
 				}
 
 			}
@@ -3872,17 +3143,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 361.165046334266663, 69.330096781253815, 150.0, 20.0 ],
 					"text" : "start polling the Serial port"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-32",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 434.165046334266663, 177.330096781253815, 220.0, 20.0 ],
-					"text" : "open port (change \"d\" to your port)"
 				}
 
 			}
@@ -5950,7 +5210,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-140", 2 ],
-					"order" : 18,
+					"order" : 19,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -5958,7 +5218,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-160", 2 ],
-					"order" : 19,
+					"order" : 18,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -5974,7 +5234,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-185", 2 ],
-					"order" : 9,
+					"order" : 10,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -5982,7 +5242,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-195", 2 ],
-					"order" : 10,
+					"order" : 9,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -5998,7 +5258,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-221", 2 ],
-					"order" : 6,
+					"order" : 7,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -6006,7 +5266,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-231", 2 ],
-					"order" : 7,
+					"order" : 6,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -6022,7 +5282,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-257", 2 ],
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -6030,7 +5290,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-267", 2 ],
-					"order" : 4,
+					"order" : 3,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -6054,7 +5314,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-307", 2 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -6063,7 +5323,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-317", 2 ],
 					"midpoints" : [ 2559.0, 1241.0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -6079,7 +5339,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 2 ],
-					"order" : 15,
+					"order" : 16,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -6087,7 +5347,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-49", 2 ],
-					"order" : 16,
+					"order" : 15,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -6103,7 +5363,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-75", 2 ],
-					"order" : 12,
+					"order" : 13,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -6111,7 +5371,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-88", 2 ],
-					"order" : 13,
+					"order" : 12,
 					"source" : [ "obj-39", 0 ]
 				}
 
